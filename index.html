@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="个人学术主页模板，展示研究方向、论文、项目、教学和联系方式。"
+    />
+    <title>杨昊天 | Academic Homepage</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">Y</span>
+        <span>杨昊天</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#about">简介</a>
+        <a href="#news">动态</a>
+        <a href="#publications">论文</a>
+        <a href="#projects">项目</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">M.S. Student</p>
+          <h1 id="hero-title">杨昊天</h1>
+          <p class="hero-subtitle">
+            我目前关注计算机视觉、视觉目标跟踪和高效深度学习模型。这里汇总我的研究兴趣、论文、项目和联系方式。
+          </p>
+          <div class="hero-actions" aria-label="常用链接">
+            <a class="button primary" href="mailto:202514021006@stu.cqu.edu.cn">Email</a>
+            <a class="button" href="https://github.com/Gilbert2510" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button" href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar</a>
+          </div>
+        </div>
+        <aside class="profile-panel" aria-label="个人信息卡片">
+          <img class="profile-photo" src="assets/profile-placeholder.svg" alt="个人照片占位图" />
+          <div>
+            <h2>杨昊天 / Your Name</h2>
+            <p>硕士研究生</p>
+            <p>重庆大学</p>
+            <p>重庆，中国</p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="section two-column" aria-labelledby="about-title">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2 id="about-title">个人简介</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            就读于重庆大学计算机学院，2025级硕士研究生，研究方向为运动目标识别，当前聚焦于高效单目标跟踪以及多模态感知，
+            关注如何在资源受限场景中实现稳定、实时且鲁棒的视觉理解。
+          </p>
+          <ul class="tag-list" aria-label="研究方向">
+            <li>Visual Tracking</li>
+            <li>Computer Vision</li>
+            <li>Efficient AI</li>
+            <li>Deep Learning</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="news" class="section two-column" aria-labelledby="news-title">
+        <div>
+          <p class="section-kicker">News</p>
+          <h2 id="news-title">近期动态</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <time datetime="2026-06">2026.06</time>
+            <p>个人学术主页上线。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="section" aria-labelledby="pub-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Publications</p>
+            <h2 id="pub-title">代表论文</h2>
+          </div>
+        </div>
+
+        <!-- <div class="publication-list">
+          <article class="publication">
+            <div class="pub-year">2026</div>
+            <div class="pub-main">
+              <h3>Paper Title: A Concise and Informative Research Contribution</h3>
+              <p class="authors"><strong>Your Name</strong>, Co-author A, Co-author B</p>
+              <p class="venue">Conference / Journal Name, 2026</p>
+              <div class="pub-links">
+                <a href="#" aria-label="论文 PDF 链接">PDF</a>
+                <a href="#" aria-label="代码链接">Code</a>
+                <a href="#" aria-label="项目主页链接">Project</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-year">2025</div>
+            <div class="pub-main">
+              <h3>Efficient Visual Tracking with Lightweight Neural Networks</h3>
+              <p class="authors"><strong>Your Name</strong>, Co-author A, Co-author B</p>
+              <p class="venue">Workshop / Preprint, 2025</p>
+              <div class="pub-links">
+                <a href="#">PDF</a>
+                <a href="#">Code</a>
+                <a href="#">BibTeX</a>
+              </div>
+            </div>
+          </article>
+        </div> -->
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="project-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Projects</p>
+            <h2 id="project-title">项目</h2>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>ECDTrack</h3>
+            <p>一个面向高效视觉目标跟踪的研究项目，可在这里概括模型结构、实验结果和开源情况。</p>
+            <a href="https://github.com/yourname/project" target="_blank" rel="noreferrer">查看项目</a>
+          </article>
+          <!-- <article class="project-card">
+            <h3>Research Toolkit</h3>
+            <p>整理常用实验脚本、可视化工具和复现实验设置，方便论文实验管理。</p>
+            <a href="https://github.com/yourname" target="_blank" rel="noreferrer">查看代码</a>
+          </article>
+          <article class="project-card">
+            <h3>Reading Notes</h3>
+            <p>记录论文阅读、方法复现和实验总结，适合链接到博客或 GitHub 仓库。</p>
+            <a href="#" target="_blank" rel="noreferrer">阅读笔记</a>
+          </article> -->
+        </div>
+      </section>
+
+      <section id="education" class="section two-column" aria-labelledby="edu-title">
+        <div>
+          <p class="section-kicker">Experience</p>
+          <h2 id="edu-title">教育经历</h2>
+        </div>
+        <div class="experience-list">
+          <article>
+            <h3>重庆大学</h3>
+            <p>硕士，计算机科学与技术，2025 - 至今</p>
+          </article>
+          <article>
+            <h3>西南石油大学</h3>
+            <p>本科，计算机科学与技术，2021 - 2025</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">联系方式</h2>
+          <p>欢迎通过邮件联系我。</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:202514021006@stu.cqu.edu.cn">202514021006@stu.cqu.edu.cn</a>
+          <a href="https://github.com/Gilbert2510" target="_blank" rel="noreferrer">github.com/Gilebrt2510</a>
+          <a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> 杨昊天. Built with GitHub Pages.</p>
+      <a href="#top">返回顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
